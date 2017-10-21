@@ -1,0 +1,23 @@
+{
+    "name": "lucasantarella/phalcon-module-routes-config",
+    "description": "A Module definition interface that allows modular route loading in the Phalcon MVC framework",
+    "keywords": ["Phalcon", "composer", "package"],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Luca Santarella",
+            "email": "luca.santarella@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=5.4",
+        "ext-phalcon": "*"
+    },
+	"require-dev": {},
+	"autoload": {
+        "psr-4": {
+            "LucaSantarella\\": "src/"
+        }
+    }
+}
